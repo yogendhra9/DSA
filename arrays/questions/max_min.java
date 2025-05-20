@@ -36,7 +36,7 @@ public class max_min
 
         for(int i=0;i<arr.length;i++)
         {
-            if(arr[i]==max-1)
+            if(arr[i]!=max && arr[i]>second_max)
             {
                 second_max = arr[i];
 
@@ -47,11 +47,11 @@ public class max_min
     static int second_min(int[] arr)
     {
         int min = min(arr);
-        int second_min = 0;
+        int second_min = Integer.MAX_VALUE;
 
         for(int i=0;i<arr.length;i++)
         {
-            if(arr[i]==min+1)
+            if(arr[i]!=min && arr[i]<second_min)
             {
                 second_min = arr[i];
             }
