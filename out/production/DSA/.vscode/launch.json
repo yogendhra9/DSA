@@ -1,0 +1,140 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "deduce",
+      "request": "launch",
+      "mainClass": "recursion.deduce",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "zro",
+      "request": "launch",
+      "mainClass": "recursion.zro",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "rev_num",
+      "request": "launch",
+      "mainClass": "recursion.rev_num",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "sum",
+      "request": "launch",
+      "mainClass": "recursion.sum",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Student",
+      "request": "launch",
+      "mainClass": "Student",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "arrays",
+      "request": "launch",
+      "mainClass": "arrays",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "comp",
+      "request": "launch",
+      "mainClass": "comp",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "except",
+      "request": "launch",
+      "mainClass": "except",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "except2",
+      "request": "launch",
+      "mainClass": "except2",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "frequency_finder",
+      "request": "launch",
+      "mainClass": "frequency_finder",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "j1",
+      "request": "launch",
+      "mainClass": "j1",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "oops",
+      "request": "launch",
+      "mainClass": "oops",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "bin_search",
+      "request": "launch",
+      "mainClass": "recursion.bin_search",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "f1",
+      "request": "launch",
+      "mainClass": "recursion.f1",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "fibonacci",
+      "request": "launch",
+      "mainClass": "recursion.fibonacci",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "r1",
+      "request": "launch",
+      "mainClass": "recursion.r1",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "rev3",
+      "request": "launch",
+      "mainClass": "recursion.rev3",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "strings",
+      "request": "launch",
+      "mainClass": "strings",
+      "projectName": "DSA_42e5d008"
+    }
+  ]
+}
