@@ -1,5 +1,4 @@
-package arrays;
-import java.sql.SQLOutput;
+package arrays.concepts;
 import java.util.Arrays;
 import java.util.Scanner;
 public class md {
