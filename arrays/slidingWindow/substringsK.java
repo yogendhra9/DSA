@@ -28,6 +28,7 @@ public class substringsK {
                 len = r-l+1;
                 maxlen = Math.max(maxlen,len);
 
+
             }
 
         }
