@@ -5,7 +5,7 @@ public class selection_sort {
     static int[] selection(int[] arr)
     {
         int n = arr.length;
-        for(int i=0;i<=n-2;i++)
+        for(int i=0;i<n-1;i++)
         {
             int min_ind=0;
             min_ind = min(arr,i);
