@@ -11,7 +11,7 @@ public class Insertion_sort {
             int temp = arr[j];
             arr[j] = arr[j-1];
             arr[j-1] = temp;
-            j--;
+            j--; //This is the most vital part where we are tracking the position of the element to be in the right place by moving it left.....
            } 
         }
         return arr;
