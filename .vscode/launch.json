@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "recursive_insertion",
+      "request": "launch",
+      "mainClass": "arrays.sorting.recursive_insertion",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
       "name": "recursive_bs",
       "request": "launch",
       "mainClass": "arrays.sorting.recursive_bs",
