@@ -8,9 +8,12 @@ public class recursive_insertion {
         return; // b.c , when we reach the last element.
        }
        else{
-          
+           // recursive call to sort the rest of the array.
+        // Now we have the rest of the array sorted, we will insert the current element at the right position.
+        // The current element is at index.
         int j=index;
-        recursiveInsertion(arr, index-1); // recursive call to sort the rest of the array.
+        recursiveInsertion(arr, index-1);
+        // recursive call to sort the rest of the array.
         while(j>0 && arr[j]<arr[j-1])
         {
             int temp = arr[j];
@@ -18,6 +21,7 @@ public class recursive_insertion {
             arr[j-1] = temp;
             j--; // This is the most vital part where we are tracking the position of the element to be in the right place by moving it left.
         }
+         
         
        }
     }

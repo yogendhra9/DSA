@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "quickSort",
+      "request": "launch",
+      "mainClass": "arrays.sorting.quickSort",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "recursive_insertion",
+      "request": "launch",
+      "mainClass": "arrays.sorting.recursive_insertion",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "recursive_bs",
+      "request": "launch",
+      "mainClass": "arrays.sorting.recursive_bs",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "mergeSort",
+      "request": "launch",
+      "mainClass": "arrays.sorting.mergeSort",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "N_nums_sum",
+      "request": "launch",
+      "mainClass": "recursion.N_nums_sum",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "print_nums",
+      "request": "launch",
+      "mainClass": "recursion.print_nums",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "Insertion_sort",
+      "request": "launch",
+      "mainClass": "arrays.sorting.Insertion_sort",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
+      "name": "bubble_sort",
+      "request": "launch",
+      "mainClass": "arrays.sorting.bubble_sort",
+      "projectName": "DSA_42e5d008"
+    },
+    {
+      "type": "java",
       "name": "selection_sort",
       "request": "launch",
       "mainClass": "arrays.sorting.selection_sort",

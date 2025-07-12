@@ -12,8 +12,8 @@ Complete 15–20 problems covering the 4 core sliding window subpatterns:
 ## Problem Breakdown
 
 ### 🔹 Fixed Size Window (4 Problems)
-- [ ] Maximum Sum Subarray of Size K (Easy)
-- [ ] Average of Subarrays of Size K (Easy)
+- [🔥 ] Maximum Sum Subarray of Size K (Easy)
+- [🔥 ] Average of Subarrays of Size K (Easy)
 - [ ] Max Number of Vowels in Substring of Length K
 - [ ] Maximum Consecutive Ones of Size K (Variation)
 
