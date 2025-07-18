@@ -2,7 +2,7 @@
 
 ## Day 1: Foundation Repair ✓
 
-### Technical Mastery
+ Technical Mastery
 - [ ] Can code basic sliding window template from memory (2 minutes)
 - [ ] Understand when to use `while` vs `for` loop
 - [ ] Can explain left shrink vs right expand logic
