@@ -1,4 +1,4 @@
-package arrays.sorting;
+package RECURSION.easy;
 
 public class recursive_insertion {
     static void recursiveInsertion(int arr[],int index)

@@ -1,6 +1,6 @@
-package arrays.sorting;
+package RECURSION.easy;
 
-public class recursive_bs {
+public class recursive_bubble_sort {
     static void bubble_sort(int arr[],int index)
     {
         if(index < 0) //
