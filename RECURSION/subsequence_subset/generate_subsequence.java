@@ -1,8 +1,9 @@
 package RECURSION.subsequence_subset;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
-public class generate_subsets {
+public class generate_subsequence {
 //
 //static ArrayList<String> arr = new ArrayList<>();
 //static void subset_generate(String up,String p)
@@ -27,23 +28,25 @@ public class generate_subsets {
 //        subset_generate(up,p);
 //        System.out.println(arr);
 //    }
-    static ArrayList<String> subset_generate(String up,String p)
+    static HashSet<String> subset_generate(String up,String p,int length)
     {
         if(up.isEmpty())
         {
-            ArrayList<String> arr = new ArrayList<>();
+            HashSet<String> arr = new HashSet<>();
             arr.add(p);
             return arr;
         }
-        ArrayList<String> left= subset_generate(up.substring(1),p+up.charAt(0));
-        ArrayList<String> right = subset_generate(up.substring(1),p);
+        HashSet<String> left= subset_generate(up.substring(1),p+up.charAt(0),length+1);
+        HashSet<String> right = subset_generate(up.substring(1),p,length);
+
         left.addAll(right);
         return left;
     }
 
     public static void main(String[] args) {
 
-        System.out.println(subset_generate("abcd", ""));
+       ArrayList<String> set = new ArrayList<>((subset_generate("abb", "",0)));
+        System.out.println(set);
     }
 
 }
