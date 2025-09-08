@@ -1,4 +1,4 @@
-package RECURSION.subsequence_subset;
+package RECURSION.medium.subsequence_subset;
 
 public class chec_subsequence_sum {
     static boolean check_subsum(int [] nums,int k,int sum,int index) {

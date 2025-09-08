@@ -1,4 +1,4 @@
-package RECURSION.subsequence_subset;
+package RECURSION.medium.subsequence_subset;
 
 public class remove_char {
 //    public static void main(String[] args) {

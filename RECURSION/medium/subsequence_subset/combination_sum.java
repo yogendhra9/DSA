@@ -1,4 +1,4 @@
-package RECURSION.subsequence_subset;
+package RECURSION.medium.subsequence_subset;
 import java.util.*;
 public class combination_sum {
     static List<List<Integer>> combinationSum(int[] candidates, int target)

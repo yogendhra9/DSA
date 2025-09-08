@@ -1,4 +1,4 @@
-package RECURSION.subsequence_subset;
+package RECURSION.medium.subsequence_subset;
 
 import java.util.ArrayList;
 

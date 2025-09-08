@@ -1,4 +1,4 @@
-package RECURSION;
+package RECURSION.medium;
 
 public class steps_to_zero {
     static int noofSteps(int num)

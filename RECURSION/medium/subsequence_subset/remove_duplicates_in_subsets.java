@@ -1,4 +1,4 @@
-package RECURSION.subsequence_subset;
+package RECURSION.medium.subsequence_subset;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,7 +29,7 @@ public class remove_duplicates_in_subsets {
 
         ArrayList<Integer> temporary = new ArrayList<>();
         List<List<Integer>> result = new ArrayList<>();
-        remove_duplicates_in_subsets.subset_creation(num,temporary,result,0,true);
+       subset_creation(num,temporary,result,0,true);
         System.out.println(result);
     }
 
